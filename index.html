@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dindin</title>
+    <style>
+        :root{
+            --color-white: #fff;
+            --color-dark: #2E948A;
+            --color-dark2: #247970;
+            --color-dark3: rgb(233, 17, 143);
+            --color-black: #000000;
+
+         }
+         *{  
+             margin: 0;
+            padding: 0;
+        }
+         body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: var(--color-white);
+            color: var(--color-white);
+         }
+         img{
+            width: 110px;
+         }
+.header,
+         .navigation_header{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+         }
+         .header{
+            background-color: var(--color-dark);
+            box-shadow: 1px 1px 4px var(--color-dark2);
+            height: 3.5em;
+            justify-content: space-between;
+            padding: 0 5%;
+         }
+         .navigation_header{
+            gap: 2em;
+         }
+         .navigation_header a{
+            text-decoration: none;
+            color: var(--color-white);
+            font-weight: bold;
+         }
+.content{ 
+            font-family:Arial, Helvetica, sans-serif;
+            color: var(--color-dark3);
+            padding: 0 5%;
+            position: absolute;
+            width: 236px;
+            height: 69px;
+            left: 82px;
+            top: 150px;
+
+        }
+        .p1{ 
+            font-family:Arial, Helvetica, sans-serif;
+            color: #000000;
+            position: absolute;
+            width: 317px;
+            height: 23px;
+            left: 82px;
+            top: 40px;
+        }
+.img_imagem1{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            padding: 5% 5%;
+            bottom: 100px;
+        }
+.titulo2{
+            font-family: Arial, Helvetica, sans-serif;
+            color: var( --color-dark3);
+            position: absolute;
+            width: 400px;
+            height: 40px;
+            left: 400px;
+            top: 300px;
+        }
+        .p2{
+            font-family: Arial, Helvetica, sans-serif;
+            color: var( --color-black);
+            position: absolute;
+            width: 650px;
+            height: 40px;
+            left: 400px;
+            top: 350px;
+        }
+ .btn{
+           font-size: 11px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 20px;
+            padding: 4px;
+            color: var(--color-white);
+            border-radius: 15px;
+            background-color: var(--color-dark);
+        }
+           .btn-1{
+            position: absolute;
+            width: 200px;
+            height: 20px;
+            left: 400px;
+            top: 500px;
+           } 
+.img_imagem2{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            padding: 5% 5%;
+            bottom: -350px;
+           }
+.titulo3{
+            font-family: Arial, Helvetica, sans-serif;
+            color: var( --color-dark3);
+            position: absolute;
+            width: 400px;
+            height: 40px;
+            left: 400px;
+            top: 730px;
+        }
+        .p3{
+            font-family: Arial, Helvetica, sans-serif;
+            color: var( --color-black);
+            position: absolute;
+            width: 650px;
+            height: 40px;
+            left: 400px;
+            top: 780px;
+        }
+        .btn-2{
+            position: absolute;
+            width: 200px;
+            height: 20px;
+            left: 400px;
+            top: 950px;
+        }
+.img_imagem3{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            padding: 5% 5%;
+            bottom: -800px;
+        }
+.titulo4{
+            font-family: Arial, Helvetica, sans-serif;
+            color: var( --color-dark3);
+            position: absolute;
+            width: 400px;
+            height: 40px;
+            left: 400px;
+            top: 1180px;
+        }
+        .p4{
+            font-family: Arial, Helvetica, sans-serif;
+            color: var( --color-black);
+            position: absolute;
+            width: 650px;
+            height: 40px;
+            left: 400px;
+            top: 1230px;
+        }
+        .btn-3{
+            position: absolute;
+            width: 200px;
+            height: 20px;
+            left: 400px;
+            top: 1400px;
+        }
+        footer{
+            width: 100%;
+            color: var(--color-white);
+        }
+        .footer-content{
+            background-color: var(--color-dark);
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 3rem 3.5rem;
+        }
+        .footer-list{
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            list-style: none;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="logo_header">
+            <img src="logo_dd.png" alt="Logo Dindin">
+        </div>
+        <div class="navigation_header">
+            <a href="#">Cursos</a>
+            <a href="#">Blog</a>
+            <a href="#">Contato</a>
+        </div>
+    </div>
+    <div class="content" id="content">
+        <h1>Cursos</h1>
+        <div class="p1" id="p1">
+            <p1>Educação financeira é tudo de bom</p1>
+        </div>
+    </div>
+
+<div class="imagem1" id="imagem poupando">
+    <div class="imagem_1">
+        <img src="ilustra_poupando.png" class="img_imagem1" alt="imagem">
+    </div>
+</div>
+<div class="titulo2" id="titulo2">
+    <h2>Investimento para iniciantes</h2>
+</div>
+<div class="p2" id="p2">
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+</div>
+    <a href="#" class="btn btn-1">COMEÇAR AGORA</a>
+    <a href="#" class="btn btn-2">COMEÇAR AGORA</a>
+    <a href="#" class="btn btn-3">COMEÇAR AGORA</a>
+<div class="imagem2" id="imagem investindo">
+        <div class="imagem2">
+            <img src="ilustra-investimento.png" class="img_imagem2" alt="imagem"
+        </div>
+    </div>
+    <div class="titulo3" id="titulo3">
+        <h2>Poupando e Rendendo</h2>
+    </div>
+    <div class="p3" id="p3">
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+    </div>
+    
+<div class="imagem3" id="imagem independencia">
+        <div class="imagem3">
+            <img src="ilustra_independencia.png" class="img_imagem3" alt="imagem"
+        </div>
+    </div>
+
+    <div class="titulo4" id="titulo4">
+        <h2>Independência Financeira</h2>
+    </div>
+    <div class="p4" id="p4">
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+    </div>
+</body>
+</html>
